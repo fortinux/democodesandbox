@@ -2,12 +2,12 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "name": "Install Dependencies",
-      "command": "pnpm install"
+      "command": "pnpm install",
+      "name": "Install Dependencies"
     },
     {
-      "name": "cd server && pip install -r requirements.txt",
-      "command": "cd server && pip install -r requirements.txt"
+      "command": "cd server && pip install -r requirements.txt",
+      "name": "cd server && pip install -r requirements.txt"
     }
   ],
 
